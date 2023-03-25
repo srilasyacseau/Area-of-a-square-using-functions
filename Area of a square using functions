@@ -1,0 +1,21 @@
+#include <stdio.h>
+int area(int a)
+{
+    int area;
+    area = a*a;
+    return (area);
+}
+
+int main()
+{
+    int s,A;
+    
+    printf("\tEnter the value of the side of the square: ");
+    scanf("%d",&s);
+    
+    A = area(s);
+    
+    printf("\n\tThe area of the square with side %d is %d.",s,A);
+    
+    return 0;
+}
